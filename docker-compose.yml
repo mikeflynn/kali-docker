@@ -7,6 +7,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./kali-root:/root
-      - ./kali-postgres:/var/lib/postgresql
+      - ./kali-db:/var/lib/postgresql
     ports:
       - "8880:80"

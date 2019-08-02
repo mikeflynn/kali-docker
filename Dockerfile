@@ -13,7 +13,7 @@ RUN echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /e
     apt-get -yqq update && \
     apt-get -yqq dist-upgrade && \
     apt-get clean && \
-    apt-get install -y vim telnet nmap
+    apt-get install -y vim telnet nmap metasploit-framework
 
 WORKDIR /root
 
