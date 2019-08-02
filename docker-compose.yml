@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  kali:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./kali-root:/root
+      - ./kali-postgres:/var/lib/postgresql
+    ports:
+      - "8880:80"
