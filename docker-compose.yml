@@ -7,6 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./kali-root:/root
-      - ./kali-db:/var/lib/postgresql
+      - ./kali-db:/var/lib/postgresql/data
     ports:
       - "8880:80"
+    tty: true
