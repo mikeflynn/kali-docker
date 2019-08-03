@@ -44,7 +44,7 @@ Once the container is built and running you will see the following new directori
 
 ## Help
 
-``bash
+```bash
 > make help
 
 help:     Show this help message
