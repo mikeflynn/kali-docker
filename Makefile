@@ -7,7 +7,7 @@ up:		## Start kali
 rebuild:	## Build kali
 	docker-compose up --build -d
 
-shell:
+shell:          ## Open shell on kali
 	docker-compose exec kali bash
 
 stop:		## Stop kali

@@ -11,7 +11,7 @@ RUN echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /e
     apt-get -yqq update && \
     apt-get -yqq dist-upgrade && \
     apt-get clean && \
-    apt-get install -yqq vim telnet nmap metasploit-framework sqlmap wpscan grabber
+    apt-get install -yqq vim telnet nmap metasploit-framework sqlmap wpscan
 
 WORKDIR /root
 
